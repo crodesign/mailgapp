@@ -16,14 +16,7 @@ $error = array();
 					<div class="entry-content entry">
 						<h1 class="uk-article-title"><?php the_title(); ?></h1>
 						<?php the_content(); ?>
-						<?php if ( !is_user_logged_in() ) : ?>
-								<p class="warning">
-									<?php _e('You must be logged in to view this content.', 'register'); ?>
-								</p><!-- .warning -->
-						<?php else : ?>
-							<?php if ( count($error) > 0 ) echo '<p class="error">' . implode("<br />", $error) . '</p>'; ?>
 
-						<?php endif; ?>
 					</div><!-- .entry-content -->
 				</div><!-- .hentry .post -->
     <?php endwhile; ?>
