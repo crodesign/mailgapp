@@ -133,3 +133,18 @@ if (strlen($this['config']->get('rss_url',''))) {
 }
 
 $this->output('head');
+
+?>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular-sanitize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular-resource.min.js"></script> 
+<script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/fieldmask.js"></script>
+<script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/cookie.js"></script>
+<script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/angular_init.js"></script>
+<!--  <script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/filters.js"></script>
+<script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/services.js"></script>
+<script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/routes.js"></script> 
+<script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/directives.js"></script> -->
+<script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/controllers/AppCtrl.js"></script>
+<script src="<?= home_url() ?>/wp-content/themes/thetheme/js/angular/controllers/PostDatesCtrl.js"></script>

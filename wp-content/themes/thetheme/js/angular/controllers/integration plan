@@ -1,0 +1,16 @@
+1) add to cart
+		load the activity
+		when it's loaded stop the calendar loader
+		have the select date field shown
+		when they choose the date, show the quantity fields with prices for the dates or no availability if not cfa and inventory 0
+		add to the cart by adding the activity object to the json
+		
+2) when checkout begins, reload each of the activities in the cart
+3) for each traveler, option name from activity is the model
+
+airline_required 
+   other fields will be dynamic even though this is kind of a shitty way to do it!!!
+lunch
+weight
+height
+shoe_size

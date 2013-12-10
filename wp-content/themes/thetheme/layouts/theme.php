@@ -17,7 +17,7 @@ include($this['path']->path('layouts:theme.config.php'));
 <?php echo $this['template']->render('head'); ?>
 </head>
 
-<body class="<?php echo $this['config']->get('body_classes'); ?>">
+<body class="<?php echo $this['config']->get('body_classes'); ?>" ng-app="app">
 	
 	<?php if ($this['widgets']->count('toolbar-l + toolbar-r')) : ?>
 	<div class="tm-toolbar uk-clearfix uk-hidden-small">
