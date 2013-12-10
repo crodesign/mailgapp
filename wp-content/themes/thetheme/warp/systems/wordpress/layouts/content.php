@@ -22,6 +22,14 @@ if (is_home()) {
 } elseif (is_page()) {
     if (is_page_template('profile.php')) {
         $content = 'profile';
+    } else if (is_page_template('companies.php')){
+        $content = 'companies';
+    } else if (is_page_template('inbox.php')){
+        $content = 'inbox';
+    } else if (is_page_template('members.php')){
+        $content = 'members';
+    } else if (is_page_template('register.php')){
+        $content = 'register';
     } else {
         $content = 'page';
     }
