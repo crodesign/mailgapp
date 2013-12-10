@@ -1,0 +1,86 @@
+******************************************************************************** 
+PACKAGE-LOG: 12:16:20 
+NOTICE: Do not post to public sites or forums 
+******************************************************************************** 
+duplicator: 0.4.6 
+wordpress: 3.7.1 
+php: 5.3.1 
+php sapi: apache2handler 
+server: Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.10.1 
+browser: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 
+package name: 20131202_mailgapp 
+php_max_time: set from=180 to=5000 
+php_max_memory: set from=128M to=5000M 
+mysql wait_timeout:5000 
+recorded table id: 2 
+******************************************************************************** 
+BUILD SQL SCRIPT: 
+******************************************************************************** 
+wp_commentmeta (0) 
+wp_comments (10) 
+wp_duplicator (1) 
+wp_links (11) 
+wp_options (266) 
+wp_podsrel (0) 
+wp_postmeta (569) 
+wp_posts (109) 
+wp_sl_setting (3) 
+wp_sl_tag (0) 
+wp_slp_rep_query (0) 
+wp_slp_rep_query_results (0) 
+wp_store_locator (1) 
+wp_term_relationships (46) 
+wp_term_taxonomy (20) 
+wp_terms (20) 
+wp_userfile_category (3) 
+wp_userfile_data (6) 
+wp_userfile_icons (0) 
+wp_usermeta (73) 
+wp_users (3) 
+wp_wpgmza (1) 
+wp_wpgmza_categories (0) 
+wp_wpgmza_maps (1) 
+wp_wpgmza_polygon (0) 
+wp_wpgmza_polylines (0) 
+SQL CREATED: D:/Server/xampp/htdocs/mailgapp/wp-snapshots/529bd154b7fe71802_20131202_mailgapp_database.sql 
+SQL FILE SIZE: 737.83KB 
+SQL RUNTIME: 2.9166 sec. 
+******************************************************************************** 
+BUILD ZIP PACKAGE: 
+******************************************************************************** 
+PACKAGE DIR:  D:/Server/xampp/htdocs/mailgapp 
+PACKAGE FILE: D:/Server/xampp/htdocs/mailgapp/wp-snapshots/529bd154b7fe71802_20131202_mailgapp_package.zip 
+FILTER EXTENSIONS:  '' 
+FILTER DIRECTORIES: '' 
+---------------------------------------- 
+STARTING PACKAGE BUILD 
+ADDED=>SQL: D:/Server/xampp/htdocs/mailgapp/wp-snapshots/529bd154b7fe71802_20131202_mailgapp_database.sql 
+BUILDING FILE LIST 
+FILE LIST COMPLETE: 12.2253 sec. 
+FILE LIST STATS: Dirs 409 | Files 2240 | Links 0 |  
+
+PACKAGE INFO: ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2650
+    [filename] => D:\Server\xampp\htdocs\mailgapp\wp-snapshots\529bd154b7fe71802_20131202_mailgapp_package.zip
+    [comment] => 
+)
+ 
+CREATING PACKAGE 
+CLOSING PACKAGE RESULT: '1' 
+PACKAGE FILE SIZE: 19.81MB 
+PACKAGE RUNTIME: 84.6737 sec. 
+******************************************************************************** 
+BUILD INSTALLER FILE: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Complete [D:/Server/xampp/htdocs/mailgapp/wp-snapshots/529bd154b7fe71802_20131202_mailgapp_installer.php] 
+******************************************************************************** 
+FILE SIZE: Zip:19.81MB | SQL:737.83KB | Installer:527.02KB 
+TOTAL PROCESS RUNTIME: 88.1221 sec. 
+DONE PROCESSING => 20131202_mailgapp 12:17:48 
+******************************************************************************** 

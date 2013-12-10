@@ -1,0 +1,29 @@
+table {
+	border-spacing:0;
+	margin: 15px 0 15px 0;
+}
+th {
+	text-align:left;
+	border-bottom: 1px solid #000000;
+	font-size:20px;
+	font-weight: normal;
+	padding: 3px 0 3px 4px;
+}
+tr, td {
+	vertical-align:middle;
+	padding:5px 6px 5px 0;
+}
+user_files {
+	border-bottom: 1px solid #ccc;
+}
+.even_files, .odd_files {
+	border-bottom: 1px solid #ccc;
+}
+
+/*Line break*/
+
+linebreak {
+	width:100%;
+	size:3px;
+	color:#000000;
+}

@@ -1,0 +1,488 @@
+
+/**************
+*  Overrides  *
+**************/
+
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.right {
+	float: right;
+	clear: right;
+}
+*:focus {
+    outline: 0;
+}
+a:hover {
+	text-decoration: none;
+}
+
+a.btn[data-lightbox] {
+	display: block;
+	max-width: 100%;
+}
+
+.home .tm-block-dark.tm-block-full {
+	color: #000;
+	background: #cecece url('../img/bg-womancell-1414.jpg') center center no-repeat;
+	height: 565px;
+	padding-top: 20px;
+}
+.bg-top .uk-text-center {
+	margin: 0 60px;
+}
+.bg-top .uk-heading-large {
+	color: #000;
+	font-size: 60px;
+}
+.bg-top .uk-article-lead {
+	color: #000;
+	font-size: 25px;
+	margin: 30px 0;
+}
+.homeform {
+	background: rgba(255,255,255,.5);
+	width: 70%;
+	display: table;
+	margin: 0 auto;
+}
+.homeform h2 {
+	margin-bottom: 0;
+}
+.home-grid h3 {
+	margin-top: 10px;
+}
+.homeform .uk-button {
+	margin-bottom: 20px;
+}
+
+.home-icons {
+	color: #fff;
+	font-size: 56px;
+	text-align: center;
+	height: 56px;
+	width: 56px;
+	background-color: #2ea7b4;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 0 auto;
+	display: table;
+}
+.home .tm-block-light {
+	background-color: #ededed;
+	padding-top: 40px;
+}
+.home .tm-block-dark {
+	background-color: #ffffff;
+	padding-top: 40px;
+}
+.social-icons ul {
+	margin: -32px -10px 0 0;
+}
+.social-icons li {
+	font-size: 20px;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	display: inline-table;
+	list-style-type: none;
+	background-color: #8b8e94;
+	width: 32px;
+	height: 32px;
+	margin-left: 3px;
+	border-radius: 50%;
+}
+.social-icons li a{
+	color: #eee;
+	padding: 5px;
+}
+.social-icons li:hover a{
+	color: #26292c;
+}
+.home .tm-bottom.tm-block.tm-block-black {
+	background-image: url('../img/cloud.svg');
+	background-size: 85%;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+.uk-article-lead.about {
+	text-align: left;
+	margin-bottom: 0;
+}
+.abouticon {
+	font-size: 270px;
+	margin: -10px 0 0 40px;
+	float: right;
+}
+.uk-form.dark input, .uk-form.dark select {
+	border: 1px solid #ddd;
+}
+.uk-dropdown {
+	width: 300px;
+}
+.micro {
+	font-size: .5px;
+	line-height: .5px;
+}
+
+.page-id-33 .tm-block-dark.tm-block-full {
+	background-color: #3e4145;
+	background-image: url('../img/cloud.svg');
+	background-size: 85%;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+.tm-block-dark.tm-block-full .topsidel,
+.tm-block-dark.tm-block-full .topsidel {
+	font-size: 30px;
+	line-height: 40px;
+}
+.tm-block-dark.tm-block-full .topsidel h2,
+.tm-block-dark.tm-block-full .topsidel h2 {
+	color: #ddd;
+	font-size: 50px;
+	line-height: 55px;
+}
+.tm-block-dark.tm-block-full .topsidel {
+	margin: 60px 30px 0 60px;
+}
+.tm-block-dark.tm-block-full .topsider {
+	margin: 60px 60px 0 30px;
+}
+.uk-modal-dialog {
+	position: relative;
+	top: 10%;
+	left: 50%;
+	margin-left: -400px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 800px;
+	margin-left: -300px;
+	background: #000;
+}
+.mdl-buttons {
+	width: 100%;
+	display: block;
+	margin: 10px auto 0 auto;
+}
+.mdl-buttons .uk-button{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.mdl-buttons form {
+	display: inline;
+}
+.uk-close {
+	background-color: #c8243d;
+	color: #ffffff;
+	opacity: 1;
+}
+a.uk-close:hover {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+.uk-close:hover, .uk-close:focus {
+	background-color: #ba223b;
+	opacity: 1;
+	outline: none;
+}
+.uk-modal-dialog > .uk-close:first-child {
+	margin: -20px -20px 0 0;
+	float: right;
+}
+.contacts {
+	font-size:18px;
+}
+.home .tm-bottom-c.uk-grid {
+	padding-top: 40px;
+}
+.f-dload {
+	color: #fff;
+	background-color: #a7d155;
+	font-size: 22px;
+	line-height: 22px;
+	border: 0;
+	width: 36px;
+	height: 36px;
+	-webkit-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	border-radius:  50%;
+	-moz-border-radius:  50%;
+	webkit-border-radius: 50%;
+}
+.f-delete {
+	color: #fff;
+	background-color: #da314b;
+	font-size: 22px;
+	line-height: 22px;
+	border: 0;
+	width: 36px;
+	height: 36px;
+	-webkit-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	border-radius:  50%;
+	-moz-border-radius:  50%;
+	webkit-border-radius: 50%;
+}
+.f-dload:hover {
+	color: #95c135;
+}
+.f-delete:hover {
+	color: #ba223b;
+}
+.f-doc {
+	margin-right: 6px;
+}
+.pagebtns {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+}
+.uk-modal-dialog .prev {
+	font-size: 18px;
+	line-height: 38px;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+}
+.uk-modal-dialog .nex {
+	font-size: 18px;
+	line-height: 38px;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+}
+/* Form Elements */
+input.formname, input.formemail, input.formtype, textarea.formmessage {
+	color: #eee;
+	background-color: #333;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px 7px;
+	border: 0;
+}
+.formsubmit {
+}
+.locatepage form {
+	margin-top: 20px;
+}
+input:-webkit-autofill {
+	border: 1px solid #cecece;
+}
+#adduser input, #adduser textarea {
+	width: 40%;
+	min-width: 240px;
+}
+#adduser input[type='submit'] {
+	width: auto;
+}
+.forgotform {
+    display:none;
+	margin-top: 20px;
+}
+input.forgotreg {
+	width: 100%;
+	margin-bottom: 7px;
+}
+.forgotform .uk-button {
+	float: right;
+}
+/****************
+* Media Queries *
+****************/
+@media (min-width: 768px) and (max-width: 959px){
+	.home .tm-block-dark.tm-block-full {
+		background: #cecece url('../img/bg-womancell-960.jpg') center center no-repeat;
+		height: 730px;
+	}
+	.bg-top  .uk-text-center{
+		margin: 0 50px 0 220px;
+	}
+	.home .uk-width-medium-1-2 {
+		width: 100%;
+	}
+	.bg-top  .uk-grid > .uk-grid-margin {
+		margin-top: 0;
+	}
+	.uk-width-medium-1-4 {
+		width: 50%;
+		min-height: 200px
+	}
+	.tm-block-dark.tm-block-full .topsidel,
+	.tm-block-dark.tm-block-full .topsider {
+		font-size: 17px;
+		line-height: 22px;
+	}
+	.tm-block-dark.tm-block-full .topsidel h2,
+	.tm-block-dark.tm-block-full .topsider h2 {
+		font-size: 34px;
+		line-height: 38px;
+	}
+	.uk-modal-dialog {
+		width: 728px;
+		margin-left: -360px;
+	}
+
+}
+@media (min-width: 960px) and (max-width: 1399px){
+	.home .tm-block-dark.tm-block-full {
+		background: #cecece url('../img/bg-womancell-1414.jpg') center center no-repeat;
+		height: 584px;
+	}
+	.uk-article-lead {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+	.home .uk-width-medium-1-2 {
+		width: 100%;
+	}
+	.bg-top  .uk-text-center{
+		margin: 0 80px 0 35%;
+	}
+	.bg-top  .uk-grid > .uk-grid-margin {
+		margin-top: 0;
+	}
+	.bg-top .uk-heading-large {
+		font-size: 58px;
+	}
+	.tm-block-dark.tm-block-full .topsidel,
+	.tm-block-dark.tm-block-full .topsidel {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.tm-block-dark.tm-block-full .topsidel h2,
+	.tm-block-dark.tm-block-full .topsidel h2 {
+		font-size: 34px;
+		line-height: 40px;
+	}
+}
+@media (min-width: 1220px) {
+	.tm-page {
+		width: 85%;
+		max-width: 1414px;
+	}
+	.tm-sticky-navbar, .tm-sticky-navbar-tool {
+	width: 85%;
+	max-width: 1414px;
+	}
+}
+@media (min-width: 1400px){
+	.home .uk-width-medium-1-2 {
+		width: 100%;
+	}
+	.bg-top  .uk-grid > .uk-grid-margin {
+		margin-top: 0;
+	}
+	.bg-top  .uk-text-center{
+		margin: 0 80px 0 50%;
+	}
+}
+@media (max-width: 1400px){
+	.home .tm-block-dark.tm-block-full {
+		padding-top: 0 !important;
+	}
+	.tm-block-dark.tm-block-full .topsidel,
+	.tm-block-dark.tm-block-full .topsider {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.tm-block-dark.tm-block-full .topsidel h2,
+	.tm-block-dark.tm-block-full .topsider h2 {
+		font-size: 38px;
+		line-height: 40px;
+	}
+
+}
+@media (max-width: 768px) {
+	.home .tm-block-dark.tm-block-full {
+		background: #cecece url('../img/bg-womancell-768.jpg') center center no-repeat;
+		height: 680px;
+	}
+	.bg-top  .uk-text-center{
+		margin: 0 50px 0 220px;
+	}
+	.bg-top .uk-heading-large {
+		font-size: 50px;
+	}
+	.tm-block-dark.tm-block-full .topsidel,
+	.tm-block-dark.tm-block-full .topsider {
+		font-size: 24px;
+		line-height: 28px;
+		margin: 30px 30px 0 30px;
+	}
+	.tm-block-dark.tm-block-full .topsidel h2,
+	.tm-block-dark.tm-block-full .topsider h2 {
+		font-size: 34px;
+		line-height: 38px;
+	}
+	.uk-modal-dialog {
+		width: 95%;
+		margin-left: -47.5% !important;
+	}
+	.pgreg {
+		margin-top: 30px;
+	}
+	.wp-page-863 .tm-block-dark, .wp-page-892 .tm-block-dark {
+		color: #fff;
+		background-color: #888;
+	}
+}
+
+@media (max-width: 700px) {
+	.bg-top  .uk-text-center{
+		margin: 0 70px 0 70px;
+	}
+}
+
+@media (max-width: 640px) {
+	.home .tm-block-dark.tm-block-full {
+		background: #cecece url('../img/bg-womancell-640.jpg') center center no-repeat;
+		height: 755px;
+	}
+	.homeform {
+		width: 100%;
+	}
+}
+@media (max-width: 400px) {
+	.home .tm-block-dark.tm-block-full {
+		background: #cecece url('../img/bg-womancell-400.jpg') center center no-repeat;
+		height: 670px;
+	}
+	.bg-top  .uk-text-center{
+		margin: 0 20px;
+	}
+	.bg-top .uk-heading-large {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.bg-top .uk-article-lead {
+		font-size: 18px;
+	}
+	.homeform {
+		width: 100%;
+	}
+	.tm-totop-scroller {
+		bottom: 6px;
+	}
+	.abouticon {
+		font-size: 160px;
+		float: none;
+		clear: both;
+		display: table;
+		margin: 0 auto;
+	}
+}

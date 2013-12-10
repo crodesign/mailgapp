@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>theTheme</name>
+	<version>1.0.3</version>
+	<creationDate>November 2013</creationDate>
+	<author>CroDesign</author>
+	<authorEmail>denis@crodesign.com</authorEmail>
+	<authorUrl>http://www.crodesign.com</authorUrl>
+    <copyright>Copyright (C) CroDesign GmbH</copyright>
+	<description>theTheme is based on the Warp theme framework and uses UIKit.</description>
+    <positions>
+        <position settings="assignment">search</position>
+        <position settings="assignment">logo</position>
+        <position settings="assignment">logo-small</position>
+        <position settings="title assignment">menu</position>
+        <position settings="title assignment">toolbar-l</position>
+        <position settings="title assignment">toolbar-r</position>
+        <position settings="assignment">headerbar</position>
+        <position settings="assignment">breadcrumbs</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>top-c</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>bottom-c</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position settings="assignment">footer</position>
+        <position settings="title assignment">offcanvas</position>
+        <position settings="">debug</position>
+        <position>Shortcodes</position>
+    </positions>
+</theme>
