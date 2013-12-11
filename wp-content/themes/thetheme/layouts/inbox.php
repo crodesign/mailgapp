@@ -28,14 +28,22 @@ $error = array();
 <div id="12-10-2013" class="verticalTabs verttabs">
     <ul class="resp-tabs-list">
 		<li class="inbox-date">12-10-2013</li>
-        <li><div class="inbox-thumb uk-hidden-small"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
-			<span class="inbox-sender">From: Some sender's name 1</span></li>
-        <li><div class="inbox-thumb uk-hidden-small"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
-			<span class="inbox-sender">From: Some sender's name 2</span></li>
-        <li class="read"><div class="inbox-thumb uk-hidden-small"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
-			<span class="inbox-sender">From: Some sender's name 3</span></li>
-        <li><div class="inbox-thumb uk-hidden-small"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
-			<span class="inbox-sender">From: Some sender's name 4</span></li>
+        <li><div class="inbox-thumb"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
+			<span class="inbox-sender read">From: Some sender's name 1</span><br />
+			<span class="inboxnotes">Held until: 12-30-13</span>
+		</li>
+        <li><div class="inbox-thumb"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
+			<span class="inbox-sender">From: Some sender's name 2</span><br />
+			<span class="inboxnotes"></span>
+		</li>
+        <li><div class="inbox-thumb"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
+			<span class="inbox-sender read">From: Some sender's name 3</span><br />
+			<span class="inboxnotes">Will be destroyed</span>
+		</li>
+        <li><div class="inbox-thumb"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
+			<span class="inbox-sender">From: Some sender's name 4</span><br />
+			<span class="inboxnotes"></span>
+		</li>
     </ul>
     <div class="resp-tabs-container">
         <div>
@@ -184,14 +192,22 @@ $error = array();
 <div id="12-3-2013" class="verticalTabs verttabs">
     <ul class="resp-tabs-list">
 		<li class="inbox-date">12-3-2013</li>
-        <li><div class="inbox-thumb uk-hidden-small"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
-			<span class="inbox-sender">From: Some sender's name 1-2</span></li>
-        <li><div class="inbox-thumb uk-hidden-small"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
-			<span class="inbox-sender">From: Some sender's name 2-2</span></li>
-        <li class="read"><div class="inbox-thumb uk-hidden-small"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
-			<span class="inbox-sender">From: Some sender's name 3-2</span></li>
-        <li><div class="inbox-thumb uk-hidden-small"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
-			<span class="inbox-sender">From: Some sender's name 4-2</span></li>
+        <li><div class="inbox-thumb"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
+			<span class="inbox-sender read">From: Some sender's name 1-2</span><br />
+			<span class="inboxnotes">Held until: 12-30-13</span>
+		</li>
+        <li><div class="inbox-thumb"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
+			<span class="inbox-sender">From: Some sender's name 2-2</span><br />
+			<span class="inboxnotes"></span>
+		</li>
+        <li><div class="inbox-thumb"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
+			<span class="inbox-sender read">From: Some sender's name 3-2</span><br />
+			<span class="inboxnotes">Forwarded via: FedEx</span>
+		</li>
+        <li><div class="inbox-thumb"><img src="../wp-content/uploads/20131202_123231-50x50.jpg" /></div>
+			<span class="inbox-sender">From: Some sender's name 4-2</span><br />
+			<span class="inboxnotes"></span>
+		</li>
     </ul>
     <div class="resp-tabs-container">
         <div>

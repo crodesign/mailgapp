@@ -288,7 +288,7 @@ ul.resp-tabs-list, p {
     background-color: #fff;
     clear: left;
 }
-h2.resp-accordion {
+div.resp-accordion {
     cursor: pointer;
     padding: 5px;
     display: none;
@@ -313,25 +313,23 @@ h2.resp-accordion {
 .resp-tab-content {
     border: 1px solid #c1c1c1;
 }
-h2.resp-accordion {
+div.resp-accordion {
     font-size: 13px;
     border: 1px solid #c1c1c1;
     border-top: 0px solid #c1c1c1;
     margin: 0px;
-    padding: 10px 15px;
-	height: 40px;
+    padding: 5px;
+	height: 50px;
 }
-.resp-tabs-container h2.resp-accordion:first-child {
-    color: #eee;
-	font-weight: bold;
-	background: #c1c1c1;
+.resp-tabs-container div.resp-accordion:first-child .resp-arrow {
+	display: none;
 }
-h2.resp-tab-active {
+div.resp-tab-active {
     border-bottom: 0px solid #c1c1c1 !important;
     margin-bottom: 0px !important;
-    padding: 10px 15px !important;
+    padding: 5px !important;
 }
-h2.resp-tab-title:last-child {
+div.resp-tab-title:last-child {
     border-bottom: 12px solid #c1c1c1 !important;
     background: blue;
 }
@@ -396,26 +394,41 @@ h2.resp-tab-title:last-child {
     width: 0;
     height: 0;
     float: right;
-    margin-top: 3px;
+    margin-top: 20px;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-top: 12px solid #c1c1c1;
 }
-h2.resp-tab-active span.resp-arrow {
+div.resp-tab-active span.resp-arrow {
     border: none;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-bottom: 12px solid #9B9797;
 }
 /* Accordion styles */
-h2.resp-tab-active {
-    background: #DBDBDB !important;
+div.resp-tab-active {
+	color: #8b8e94;
+    background: #26292c !important;
 }
-.resp-easy-accordion  h2.resp-accordion {
+.resp-easy-accordion  div.resp-accordion {
         display: block;
 }
 .resp-easy-accordion .resp-tab-content {
     border: 1px solid #c1c1c1;
+}
+.resp-tabs-container div.resp-accordion:first-child,
+.resp-tabs-container div.resp-accordion:first-child:hover,
+.resp-tabs-container div.resp-accordion:first-child.resp-tab-active {
+    color: #eee;
+	text-align: center;
+	font-weight: bold;
+	height: 25px;
+	background: #c1c1c1 !important;
+	border-bottom: 1px solid #c1c1c1 !important;
+}
+.resp-tabs-container .resp-tab-content:first-child {
+	display: none !important;
+	border-top: 1px solid #c1c1c1 !important;
 }
 
 .resp-easy-accordion .resp-tab-content:last-child {
@@ -426,22 +439,29 @@ h2.resp-tab-active {
     margin: 0px;
 }
 .resp-tab-content-active {
-    display: block;
 }
-h2.resp-accordion:first-child {
+div.resp-accordion:first-child {
     border-top: 1px solid #c1c1c1 !important;
 }
-
+.resp-vtabs .inbox-sender{
+	color: #222;
+	font-weight: 600;
+}
+.resp-vtabs .inbox-sender.read{
+	font-weight: 200;
+}
 @media only screen and (max-width: 768px) {
     ul.resp-tabs-list {
         display: none;
     }
-    h2.resp-accordion {
+    div.resp-accordion {
         display: block;
     }
     .resp-vtabs .resp-tab-content {
-        border: 1px solid #C1C1C1;
+        border: 1px solid #c1c1c1;
+		border-top: 1px solid #4c4e52;
 		padding: 0;
+		margin: 0;
     }
     .resp-vtabs .resp-tabs-container {
         border: none;
@@ -453,9 +473,15 @@ h2.resp-accordion:first-child {
     .resp-accordion-closed {
         display:none !important;
     }
-    .resp-vtabs .resp-tab-content:last-child {
+    .resp-vtabs .resp-tab-content {
+		font-size: 12px;
+		text-align: center;
+        border-top: 1px solid #c1c1c1 !important;
         border-bottom: 1px solid #c1c1c1 !important;
     }
+	.verticalTabs .contentnotes {
+		display: none;
+	}
 }
 
 /* Inbox Styles */
@@ -503,8 +529,8 @@ input.holddate {
 	float:left;
 }
 .inbox-thumb {
-	float: right;
-	margin-left: 10px;
+	float: left;
+	margin-right: 10px;
 }
 .uk-margin-bottom {
 	margin-bottom: 20px !important;

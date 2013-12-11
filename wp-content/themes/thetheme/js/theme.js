@@ -133,9 +133,9 @@ jQuery(function($) {
                     }
                 }
 
-                //Assigning the h2 markup to accordion title
+                //Assigning the div markup to accordion title
                 var $tabItemh2;
-                $respTabs.find('.resp-tab-content').before("<h2 class='resp-accordion' role='tab'><span class='resp-arrow'></span></h2>");
+                $respTabs.find('.resp-tab-content').before("<div class='resp-accordion' role='tab'><span class='resp-arrow'></span></div>");
 
                 var itemCount = 0;
                 $respTabs.find('.resp-accordion').each(function () {
