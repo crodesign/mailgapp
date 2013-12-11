@@ -30,6 +30,8 @@ if (is_home()) {
         $content = 'members';
     } else if (is_page_template('notifications.php')){
         $content = 'notifications';
+    } else if (is_page_template('documents.php')){
+        $content = 'documents';
     } else if (is_page_template('register.php')){
         $content = 'register';
     } else {
