@@ -28,6 +28,8 @@ if (is_home()) {
         $content = 'inbox';
     } else if (is_page_template('members.php')){
         $content = 'members';
+    } else if (is_page_template('notifications.php')){
+        $content = 'notifications';
     } else if (is_page_template('register.php')){
         $content = 'register';
     } else {
