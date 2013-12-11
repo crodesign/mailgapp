@@ -521,7 +521,11 @@
 		"text-85": {
 			"title": "0",
 			"assignment": {
-				"0": ""
+				"0": "",
+				"1": "page-942",
+				"2": "page-944",
+				"3": "page-946",
+				"4": "page-948"
 			},
 			"class": "",
 			"panel": "",
@@ -662,44 +666,6 @@
 				"small": "1"
 			}
 		},
-		"loginwithajaxwidget-4": {
-			"title": "0",
-			"assignment": {
-				"0": "",
-				"1": "page-863"
-			},
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
-		"text-89": {
-			"title": "0",
-			"assignment": {
-				"0": "",
-				"1": "page-863"
-			},
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
 		"nav_menu-8": {
 			"title": "1",
 			"assignment": {
@@ -722,6 +688,44 @@
 			},
 			"class": "",
 			"panel": "uk-panel",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"loginwithajaxwidget-5": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"text-90": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
 			"icon": "",
 			"badge": {
 				"type": "uk-panel-badge uk-badge",
@@ -758,6 +762,28 @@
 			"subtitle": ""
 		},
 		"837": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"950": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"subtitle": ""
+		},
+		"951": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"952": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"953": {
+			"icon": "",
+			"subtitle": ""
+		},
+		"954": {
 			"icon": "",
 			"subtitle": ""
 		}

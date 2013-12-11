@@ -20,7 +20,7 @@ $content = '';
 if (is_home()) {
     $content = 'index';
 } elseif (is_page()) {
-    if (is_page_template('profile.php')) {
+    if (is_page_template('profile.php')){
         $content = 'profile';
     } else if (is_page_template('companies.php')){
         $content = 'companies';
